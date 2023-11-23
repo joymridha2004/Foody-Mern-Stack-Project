@@ -13,7 +13,12 @@ code {
     monospace;
 }
 
-#carousel {
+.nav-link{
+  color: white !important;
+}
+#carousel{
   max-height: 500px;
-  object-fit: fill;
+}
+.carousalImg{
+  object-fit: contain !important;
 }
