@@ -21,7 +21,7 @@ export default function Carousal() {
                 aria-label="Search"
               />
               <button
-                class="btn btn-outline-success text-white bg-success"
+                className="btn btn-outline-success text-white bg-success"
                 type="submit"
               >
                 Search
