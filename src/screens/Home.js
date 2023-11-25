@@ -60,7 +60,7 @@ export default function Home() {
             </div>
             <div className="carousel-item active">
               <img
-                src="https://source.unsplash.com/random/900×700/?burger"
+                src="https://plus.unsplash.com/premium_photo-1694141253763-209b4c8f8ace?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGJpcnlhbml8ZW58MHx8MHx8fDA%3D"
                 className="d-block w-100"
                 style={{ filter: "brightness(30%)" }}
                 alt="burger image"
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/random/900×700/?pastry"
+                src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGl6emF8ZW58MHx8MHx8fDA%3D"
                 className="d-block w-100"
                 style={{ filter: "brightness(30%)" }}
                 alt="pastry image"
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/random/900×700/?momos"
+                src="https://images.unsplash.com/photo-1593629718617-bc1b024cf15a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fFN0YXJ0ZXJ8ZW58MHx8MHx8fDA%3D"
                 className="d-block w-100"
                 style={{ filter: "brightness(30%)" }}
                 alt="barbeque image"
