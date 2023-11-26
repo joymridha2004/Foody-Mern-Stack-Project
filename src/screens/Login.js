@@ -41,7 +41,7 @@ export default function Login() {
   }
 
   return (
-    <div>
+    <div style={{backgroundImage: 'url("https://wallpapercrafter.com/desktop2/781492-meat-lettuce-white-background-food-dinner-meal.jpg")', height: '100vh', backgroundSize: 'cover' }} >
       <div className='container'>
        <form onSubmit={handleSubmit}>
          <div className="mb-3">

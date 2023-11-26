@@ -36,7 +36,7 @@ export default function Signup() {
   }
 
   return (
-    <>
+    <div style={{ backgroundImage: 'url("https://e0.pxfuel.com/wallpapers/910/745/desktop-wallpaper-pizza-pie-lunch-dinner-background.jpg")', backgroundSize: 'cover',height: '100vh' }}>
     <div className='container'>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
@@ -60,7 +60,7 @@ export default function Signup() {
         <Link to="/login" className='m-3 btn btn-danger'>Already a user</Link>
       </form>
     </div>
-    </>
+    </div>
   )
 }
 
