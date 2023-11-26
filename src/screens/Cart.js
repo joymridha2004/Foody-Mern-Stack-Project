@@ -2,6 +2,13 @@ import React from 'react'
 import Delete from '../delete.svg'
 import { useCart, useDispatchCart } from '../components/ContextReducer';
 export default function Cart() {
+
+
+  const handleCheckOut = async () => {
+      dispatch({ type: "DROP" })
+  }
+
+
   let data = useCart();
   let dispatch = useDispatchCart();
   if (data.length === 0) {
@@ -43,7 +50,7 @@ export default function Cart() {
         </table>
         <div><h1 className='fs-2 text-white'>Total Price: {totalPrice}/-</h1></div>
         <div>
-          <button className='btn bg-success mt-5 '> Check Out </button>
+          <button className='btn bg-success mt-5 ' onClick={handleCheckOut}> Check Out </button>
         </div>
       </div>
 

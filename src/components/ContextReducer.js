@@ -7,7 +7,9 @@ const reducer = (state,action)=> {
     switch(action.type){
         case "ADD": 
             return[...state,{id:action._id,name:action.name,qty:action.qty, size:action.size , price: action.price, img: action.img }]
-            
+        case "DROP":
+            let empArray = []
+            return empArray;    
         case "REMOVE" :
             let newArr = [...state]
             newArr.splice(action.index,1)
